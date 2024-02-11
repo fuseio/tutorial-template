@@ -10,8 +10,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@fuseio/fusebox-web-sdk": "^0.2.5",
     "dotenv": "^16.4.2",
-    "@fuseio/fusebox-web-sdk": "^0.2.4",
     "viem": "^2.7.8"
   },
   "devDependencies": {
