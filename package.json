@@ -1,0 +1,21 @@
+{
+  "name": "fusebox-tutorial-template",
+  "version": "1.0.0",
+  "description": "A template repository for FuseBox tutorials (https://docs.fuse.io/docs/category/tutorials)",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "@fuseio/fusebox-web-sdk": "^0.2.4",
+    "viem": "^2.7.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
