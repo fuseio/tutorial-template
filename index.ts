@@ -4,5 +4,6 @@ import { Address, Hash, concat, createClient, createPublicClient, encodeFunction
 import { generatePrivateKey, privateKeyToAccount, signMessage } from "viem/accounts"
 import { lineaTestnet, polygonMumbai, sepolia } from "viem/chains"
 import { writeFileSync } from 'fs'
+import { ethers } from 'ethers'
 
 console.log("Hello world!")
